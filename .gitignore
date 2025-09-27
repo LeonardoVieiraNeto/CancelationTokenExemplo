@@ -1,0 +1,50 @@
+################################################################################
+# Padrão .NET e ASP.NET Core
+################################################################################
+
+# Pastas de Saída de Build e Binários
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# Pacotes e Dependências
+**/packages
+*.nupkg
+*.snupkg
+
+# Resultados de Testes
+TestResults/
+
+# .NET Tooling
+.config/dotnet-tools.json
+
+# Diretórios de Publicação
+Publish/
+
+# Diretórios de backup e cache
+*.bak
+*.user
+*.suo
+
+################################################################################
+# Arquivos de Configuração Específicos do VS Code
+################################################################################
+
+# Exclui arquivos de configurações específicas de usuário no VS Code.
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+# Exclui temporários de extensão/cache de usuário.
+.vscode/*.log
+
+################################################################################
+# Outros Arquivos Comuns
+################################################################################
+
+# Git
+.git/
+
+# Windows
+Thumbs.db
